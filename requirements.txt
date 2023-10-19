@@ -3,7 +3,7 @@ Flask-Admin
 Flask-Login
 Flask-SQLAlchemy
 Flask-WTF
-Werkzeug
+Werkzeug>=3.0.0
 email-validator
 itsdangerous
 Jinja2
