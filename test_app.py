@@ -6,7 +6,6 @@ from flask import ( Flask,
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 from flask_login import login_required, login_user, logout_user, LoginManager, UserMixin, current_user
-from werkzeug.routing import _rule_re, parse_rule
 from werkzeug.security import generate_password_hash, check_password_hash
 from forms import Signin,Signup
 import numpy as np
